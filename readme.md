@@ -1,5 +1,24 @@
-# Hamilton Mercado Cuellar
+# hmc
 
-Sitio web de un CV responsive usando el FrameWork Vue 3. Modo oscuro claro y exportación a PDF. (Aun esta en construcción)
+## Project setup
+```
+npm install
+```
 
-Antigua versión se utilizo solamente Javascript, Html, CSS 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
