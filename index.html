@@ -41,18 +41,18 @@
     <meta property="og:description"
           content="👋🏾  Hola, soy Hamilton 😊 , desarrollador. Aprendiendo cada día algo nuevo e intentado dar lo mejor de mí. 💻">
     <meta property="og:image"
-          content="/metadatos.png">
+          content="/src/assets/metadatos.png">
     <!--========== Twitter ==========-->
     <meta property="twitter:card"
           content="summary_large_image">
     <meta property="twitter:url"
-          content="https://hamelshmc.github.io/">
+          content="https://hamelshmc.gitlab.io/">
     <meta property="twitter:title"
           content="Hamilton Mercado Cuellar || Developer">
     <meta property="twitter:description"
           content="👋🏾  Hola, soy Hamilton 😊 , desarrollador. Aprendiendo cada día algo nuevo e intentado dar lo mejor de mí. 💻">
     <meta property="twitter:image"
-          content="./metadatos.png">
+          content="/src/assets/metadatos.png">
     <!--========== BOX ICONS ==========-->
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -64,22 +64,19 @@
     <!--========== Favicons==========-->
     <link rel="apple-touch-icon"
           sizes="180x180"
-          href="./favicon_io/apple-touch-icon.png">
+          href="/assets/apple-touch-icon.16cf02c9.png">
     <link rel="icon"
           type="image/png"
           sizes="32x32"
-          href="./favicon_io/favicon-32x32.png">
+          href="data:image/png;base64,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">
     <link rel="icon"
           type="image/png"
           sizes="16x16"
-          href="./favicon_io/favicon-16x16.png">
-    <link rel="manifest"
-          href="./favicon_io/site.webmanifest">
+          href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiklEQVQ4T3VTXUiTYRR+zvt9ftNQ11T8W0ucirQioqygCyUKKm+iH6OLgoK67qaoq6IiJAWJbnJgiEjhbwTTgvKmAoNsGWq00qQiSp1tutRtuu994932bbOf7+Z733PO+5xznuccwn8+cX+7DZp+A6BaENYC8EDHLTrmbkl9QomLPAkABIgHm/MRUd+AkTXqj9vj55t01H1Jxkl7EkB640bRs7UBoAvGPfGPIXCANlKd27MawKhAhvRUDcCSvQcWM+CfB4JhQFOBcBgIrwBEZ+jI67tGzmQdslQJ8HDnI1TaD4Q5YDKpABfgBOjLHGmzs8Dc3Fk6+KpFVhZrITW7uKLC83ERmqpdPvUM11prov63L6Yx6fHj8OkKgPNOcnQc/5uDOJgYPzkEoMrnDcJsTseSn8Nklh3oyDJrMuoilbc3xMJT2DcYF59O7AfoscwQCnD4JiIo3qbF1ADmUGbPJbrKkxz8IawYq9NgSp/49UO3BaZ0pGUQgj4O2w4TmIbbZG8/Z+hHTpcrT4TUCpULFs8Q7bnKOrK7IGv6enBWIFtZQqZlEaZMNgKEqqmsez4xB87u/ulN5fZ8RWGrZzLeWmBhCQoWUJ3TBpUH95Hj3pNU0snZ1T8MYMsqNVJ5EUCaqqLGMY6uyedevy5CxDHDOa9vPNTbS82dfeeJqNFAXW8tQElRIV4OjyHC9cQYF9oIgzOtSck5uE58F91pc1lZBvsCQJFVlNqKUFlaAve7D/D6/AbzKMjLwehyKxaW/bFW5c5wUR8dJGdn31MQ7ZVnhTHY1xXj8/cprEQiCV4YY8go/orRnwPJ5eJoigI0d7hqSWHdEFjzr+001NlQbkNuXizkvXcQQ99cTb8BKKn11wKcI4QAAAAASUVORK5CYII=">
   <script type="module" crossorigin src="/assets/index.d1d69703.js"></script>
   <link rel="modulepreload" href="/assets/vendor.0b91d5aa.js">
   <link rel="stylesheet" href="/assets/index.0605aa35.css">
 </head>
-
   <body>
     <div id="app"></div>
     
